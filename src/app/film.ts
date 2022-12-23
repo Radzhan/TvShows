@@ -1,11 +1,10 @@
 import { configureStore } from "@reduxjs/toolkit";
-import { filmRedusers } from "../containers/filmSlice";
+import { filmRedusers } from "../containers/Film/filmSlice";
 
 export const film = configureStore({
   reducer: {
     film: filmRedusers,
   },
-
 });
 
 export type RootState = ReturnType<typeof film.getState>;

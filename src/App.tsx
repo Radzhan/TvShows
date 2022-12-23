@@ -4,8 +4,6 @@ import Film from './containers/Film/Film';
 import Main from './containers/Main/Main';
 
 function App() {
-
-
   return (
     <div className="container-fluid">
       <header>
